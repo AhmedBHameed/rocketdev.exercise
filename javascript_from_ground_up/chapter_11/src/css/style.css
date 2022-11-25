@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #30252e;
+}
+
+/* Write your style here  */
+/* If you need and image, you can find all resources in assets folder. */
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.color-container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.color-box {
+  width: 100%;
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+small.color-category-name {
+  color: #e9ede0;
+  position: absolute;
+  top: 50%;
+  left: -55px;
+  font-size: 18px;
+  font-weight: 500;
+  transform: translateY(-50%) rotate(-90deg);
+}
+
+.hex-color {
+  padding: 8px 20px;
+  background-color: rgba(255, 255, 255, 0);
+  transition: background 0.4s ease-out;
+  color: #505050;
+  font-weight: 800;
+}
+
+.color-box:hover .hex-color {
+  background-color: rgba(255, 255, 255, 0.3);
+}

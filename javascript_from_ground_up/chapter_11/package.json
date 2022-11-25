@@ -1,0 +1,54 @@
+{
+  "name": "javascript-contest",
+  "version": "1.0.0",
+  "description": "This is simple contest for winning free tickets to We Are Developers!!! Make your coffee and get your ticket!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage=false --watchAll --verbose --detectOpenHandles",
+    "build": "webpack build --config ./webpack.prod.js --stats verbose",
+    "dev": "webpack serve --open --config webpack.dev.js",
+    "start": "concurrently --kill-others \"npm run dev\" \"npm run test\"",
+    "decrypt:solution": "node ./src/decrypt-solutions.js",
+    "encrypt:solution": "node ./src/encrypt-solutions.js",
+    "install:jest": "jest --init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SmartAcademyVienna/javascript-contest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SmartAcademyVienna/javascript-contest/issues"
+  },
+  "homepage": "https://github.com/SmartAcademyVienna/javascript-contest#readme",
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.3",
+    "babel-jest": "^29.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "concurrently": "^7.5.0",
+    "crypto-browserify": "^3.12.0",
+    "css-loader": "^6.7.1",
+    "css-minimizer-webpack-plugin": "^4.2.2",
+    "extract-loader": "^5.1.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^29.1.2",
+    "jest-config": "^29.2.2",
+    "jest-environment-jsdom": "^29.2.2",
+    "jest-fetch-mock": "^3.0.3",
+    "jest-puppeteer": "^6.1.1",
+    "mini-css-extract-plugin": "^2.6.1",
+    "prettier": "^2.7.1",
+    "puppeteer": "^19.2.0",
+    "style-loader": "^3.3.1",
+    "terser-webpack-plugin": "^5.3.6",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1",
+    "webpack-merge": "^5.8.0"
+  }
+}
