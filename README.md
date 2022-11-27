@@ -16,5 +16,9 @@
     - [Instructions](./javascript_from_ground_up/chapter_06/readme.md)
     - [Index.js to resolve](./javascript_from_ground_up/chapter_06/src/index.js)
     - [style.css to resolve](./javascript_from_ground_up/chapter_06/src/css/style.css)
+  - [Chapter_08](./javascript_from_ground_up/chapter_08/)
+    - [Instructions](./javascript_from_ground_up/chapter_08/readme.md)
+    - [script.js to resolve](./javascript_from_ground_up/chapter_08/public/login/script.js)
+    - [style.css to resolve](./javascript_from_ground_up/chapter_08/public/login/style.css)
 
 Increase your skills with some useful practice.
