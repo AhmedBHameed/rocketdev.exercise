@@ -20,6 +20,15 @@ Note that the valid user we have in the backend is:
 - Scope of solution [script.js](./public/home/script.js).
 - Scope of solution [style.css](./public/home/style.css).
 
+### More information:
+
+The server has 2 end-points serving as REST API
+
+- `POST /api/login`
+- `GET /api/logout`
+
+The root `/` is serving home page as html.
+
 ## How to check your solution is correct
 
 - As soon you redirect to root page, the page should show you:
